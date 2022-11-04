@@ -11,4 +11,3 @@ CREATE TABLE users (
 
 -- VARCHAR is for strings
 
-
