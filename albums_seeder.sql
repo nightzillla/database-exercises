@@ -1,5 +1,7 @@
 USE codeup_test_db;
 
+TRUNCATE albums;
+
 INSERT INTO albums (artist, name, release_date, sales, genre)
 VALUES ('Michael Jackson', 'Thriller', 1982, 50.2,'Pop');
 
@@ -89,3 +91,4 @@ VALUES ('Michael Jackson', 'Dangerous', 1991, 17,'R&B');
 
 INSERT INTO albums (artist, name, release_date, sales, genre)
 VALUES ('The Beatles', 'Abbey Road', 1969, 16.9,'Progressive rock');
+
