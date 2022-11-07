@@ -1,0 +1,10 @@
+SELECT * FROM albums;
+
+UPDATE albums SET artist ='2Pac' WHERE artist = 'Tupac';
+
+ALTER TABLE albums MODIFY COLUMN release_date DATE;
+
+// reset ids from albums
+TRUNCATE albums;
+
+DELETE FROM albums;
