@@ -15,7 +15,6 @@ VALUES ('Pink Floyd', 'The Dark Side of the Moon', 1973, 28,'Progressive rock');
 INSERT INTO albums (artist, name, release_date, sales, genre)
 VALUES ('Eagles', 'Their Greatest Hits', 1976, 41.2,'Country rock');
 
-
 INSERT INTO albums (artist, name, release_date, sales, genre)
 VALUES ('Eagles', 'Hotel California', 1976, 31.8,'Soft rock');
 
@@ -83,10 +82,10 @@ INSERT INTO albums (artist, name, release_date, sales, genre)
 VALUES ('Pink Floyd', 'The Wall', 1979, 18.9,'Progressive rock');
 
 INSERT INTO albums (artist, name, release_date, sales, genre)
-VALUES ('The Beatles', 'Sgt.Pepper Lonely Hearts Club Band', 1967, 18.3,'Rock');
+VALUES ('The Beatles', 'Sgt.Pepper''s Lonely Hearts Club Band', 1967, 18.3,'Rock');
 
 INSERT INTO albums (artist, name, release_date, sales, genre)
 VALUES ('Michael Jackson', 'Dangerous', 1991, 17,'R&B');
 
 INSERT INTO albums (artist, name, release_date, sales, genre)
-VALUES ('The Beatles', 'Abbey Road', 1969, 16.9,'Rock');
+VALUES ('The Beatles', 'Abbey Road', 1969, 16.9,'Progressive rock');
