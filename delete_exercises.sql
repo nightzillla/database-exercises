@@ -9,6 +9,3 @@ SELECT * FROM albums WHERE genre = 'disco';
 # Albums by 'Whitney Houston' (...or maybe an artist of your choice)
 DELETE FROM albums WHERE artist = 'Whitney Houston';
 
-
-
-
