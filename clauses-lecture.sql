@@ -21,3 +21,5 @@ SELECT * FROM salaries WHERE salary NOT BETWEEN 50000 AND 100000;
 SELECT birth_date FROM employees
     WHERE birth_date NOT LIKE '195%'
     AND hire_date NOT LIKE '199%';
+
+SELECT * FROM employees WHERE birth_date LIKE '1954-1%'
