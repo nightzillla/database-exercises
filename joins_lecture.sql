@@ -20,6 +20,4 @@ CREATE TABLE preferences (
     album_id INT NOT NULL
 );
 
-INSERT INTO preferences (person_id, album_id) VALUES (1, 12), (1, 5), (1, 22), (1, 29), (2,1), (2, 31), (2, 30), (3, 11), (3, 26), (3, 25);
-
-SELECT p.first_name, a.album_name AS name FROM persons p JOIN preferences pref ON p.person_id = pref.person_id JOIN albums a on pref.album_id = a.album_id
+INSERT INTO preferences (person_id, album_id) VALUES (1, 12), (1, 5), (1, 22), (1, 29), (2,1)
