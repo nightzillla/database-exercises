@@ -1,5 +1,5 @@
 USE employees;
-
+# command,shift,option, u will show you the graph
 SELECT * FROM employees e;
 SHOW INDEXES FROM employees;
 SHOW INDEXES FROM salaries;
